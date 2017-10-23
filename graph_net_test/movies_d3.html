@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ordenando dados</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+<h1>Tarefa do dia 25/09/2017</h1>
+<h2>Filmes com a maior bilheteria</h2>
+<div id="chart1"></div>
+<h2>Filmes com o maior orçamento</h2>
+<div id="chart2"></div>
+<h2>Filmes com o maior lucro</h2>
+<div id="chart3"></div>
+<h2>Filmes com o maior bilheteria por genero</h2>
+<div id="chart4"></div>
+
+<script type="text/javascript">
+    function render(data, comparator, q) {
+        d3.select("#chart"+q).selectAll("div.h-bar")
+                .data(data)
+            .enter().append("div")
+            .attr("class", "h-bar")
+            .append("span");
+        
+        d3.select("#chart"+q).selectAll("div.h-bar")
+                .data(data)
+            .attr("class", "h-bar")
+            .style("background-color", function(d){
+                    if(q==1)
+                        return "#FFAAAA";
+                    if(q==2)
+                        return "cyan";
+                    if(q==3)
+                        return "#00FF55";
+                    //return colorScale(d.color); 
+            })            
+            .style("width", function (d) {
+                if(q==1)
+                    return (d.Worldwide_Gross_M * 0.5) + "px";
+                if(q==2)
+                    return (d.Budget_M * 3) + "px";
+                if(q==3)
+                    return ((d.Worldwide_Gross_M - d.Budget_M) * 0.5) + "px";
+                //d.Genre.size();
+		
+            })
+            .select("span")
+                .text(function (d) {
+			return d.Film;
+                });
+
+        if(comparator)
+            d3.select("#chart"+q)
+                .selectAll("div.h-bar") 
+                .sort(comparator);
+            
+    }
+
+    var comparePorBilheteria = function (a, b) { 
+        return a.Worldwide_Gross_M > b.Worldwide_Gross_M?-1:1;
+    };
+    var comparePorOrcamento = function (a, b) { 
+        return a.Budget_M > b.Budget_M?-1:1;
+    };
+    var comparePorLucro = function (a, b) { 
+        var l1 = a.Worldwide_Gross_M - a.Budget_M;
+        var l2 = b.Worldwide_Gross_M - b.Budget_M;
+        return l1 > l2?-1:1;
+    };
+    
+    
+    
+    d3.json("movies.json", function(error, json){ 
+        render(json, comparePorBilheteria, 1);
+    });
+    d3.json("movies.json", function(error, json){ 
+        render(json, comparePorOrcamento, 2);
+    });
+    d3.json("movies.json", function(error, json){ 
+        render(json, comparePorLucro, 3);
+    });
+    
+</script>
+</body>
+</html>
