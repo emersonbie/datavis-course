@@ -100,7 +100,7 @@
                 .dimension(typeDimension)
                 .group(typeDimensionCount)
                 .transitionDuration(200)
-                .ordinalColors(["#ee0010", "#2225ee" , "#eeae50"])
+                .ordinalColors(["#eeae50", "#2225ee" , "#ee0010"])
                 .elasticX(true);
 
               lineCrime.width(950)
@@ -113,7 +113,7 @@
                 .brushOn(false)
                 .elasticY(true)
                 .legend(dc.legend().x(650).y(10).itemHeight(13).gap(5))
-                .ordinalColors(["#ee0010", "#2225ee" , "#eeae50"])
+                .ordinalColors(["#eeae50", "#ee0010", "#2225ee"])
                 .x(d3.time.scale().domain(d3.extent(data, function(d) { return d.dtg; })));
               
               // render
