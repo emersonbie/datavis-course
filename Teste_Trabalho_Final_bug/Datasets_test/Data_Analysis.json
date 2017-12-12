@@ -1,0 +1,538 @@
+[
+  {
+    "Project": "Projeto_1",
+    "Release": "1.18.0",
+    "Qnt_Bugs": 14,
+    "Qnt_TC_Release": 755,
+    "Qnt_TC_SW": 1375,
+    "Qnt_Bugs_Client": 4
+  },
+  {
+    "Project": "Projeto_1",
+    "Release": "1.19.0/2.0.0",
+    "Qnt_Bugs": 52,
+    "Qnt_TC_Release": 1399,
+    "Qnt_TC_SW": 1375,
+    "Qnt_Bugs_Client": 9
+  },
+  {
+    "Project": "Projeto_1",
+    "Release": "2.1.0",
+    "Qnt_Bugs": 23,
+    "Qnt_TC_Release": 620,
+    "Qnt_TC_SW": 1375,
+    "Qnt_Bugs_Client": 3
+  },
+  {
+    "Project": "Projeto_1",
+    "Release": "2.2.0",
+    "Qnt_Bugs": 9,
+    "Qnt_TC_Release": 285,
+    "Qnt_TC_SW": 1375,
+    "Qnt_Bugs_Client": 6
+  },
+  {
+    "Project": "Projeto_1",
+    "Release": "2.3.0",
+    "Qnt_Bugs": 2,
+    "Qnt_TC_Release": 104,
+    "Qnt_TC_SW": 1375,
+    "Qnt_Bugs_Client": 70
+  },
+  {
+    "Project": "Projeto_3",
+    "Release": 1,
+    "Qnt_Bugs": 34,
+    "Qnt_TC_Release": 372,
+    "Qnt_TC_SW": 372,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_2",
+    "Release": "2.1.0",
+    "Qnt_Bugs": 23,
+    "Qnt_TC_Release": 301,
+    "Qnt_TC_SW": 547,
+    "Qnt_Bugs_Client": 6
+  },
+  {
+    "Project": "Projeto_2",
+    "Release": "2.1.1/2.1.2",
+    "Qnt_Bugs": 8,
+    "Qnt_TC_Release": 153,
+    "Qnt_TC_SW": 547,
+    "Qnt_Bugs_Client": 13
+  },
+  {
+    "Project": "Projeto_2",
+    "Release": "2.2.0",
+    "Qnt_Bugs": 47,
+    "Qnt_TC_Release": 282,
+    "Qnt_TC_SW": 547,
+    "Qnt_Bugs_Client": 7
+  },
+  {
+    "Project": "Projeto_2",
+    "Release": "2.3.0",
+    "Qnt_Bugs": 42,
+    "Qnt_TC_Release": 290,
+    "Qnt_TC_SW": 547,
+    "Qnt_Bugs_Client": 5
+  },
+  {
+    "Project": "Projeto_2",
+    "Release": "2.4.0",
+    "Qnt_Bugs": 28,
+    "Qnt_TC_Release": 242,
+    "Qnt_TC_SW": 547,
+    "Qnt_Bugs_Client": 13
+  },
+  {
+    "Project": "Projeto_2",
+    "Release": "3.0.0",
+    "Qnt_Bugs": 23,
+    "Qnt_TC_Release": 227,
+    "Qnt_TC_SW": 547,
+    "Qnt_Bugs_Client": 5
+  },
+  {
+    "Project": "Projeto_2",
+    "Release": "3.0.1",
+    "Qnt_Bugs": 8,
+    "Qnt_TC_Release": 547,
+    "Qnt_TC_SW": 547,
+    "Qnt_Bugs_Client": 2
+  },
+  {
+    "Project": "Projeto_4",
+    "Release": "1.15.0",
+    "Qnt_Bugs": 8,
+    "Qnt_TC_Release": 61,
+    "Qnt_TC_SW": 298,
+    "Qnt_Bugs_Client": 1
+  },
+  {
+    "Project": "Projeto_4",
+    "Release": "1.16.0",
+    "Qnt_Bugs": 6,
+    "Qnt_TC_Release": 180,
+    "Qnt_TC_SW": 298,
+    "Qnt_Bugs_Client": 6
+  },
+  {
+    "Project": "Projeto_4",
+    "Release": "1.17.0",
+    "Qnt_Bugs": 39,
+    "Qnt_TC_Release": 181,
+    "Qnt_TC_SW": 298,
+    "Qnt_Bugs_Client": 2
+  },
+  {
+    "Project": "Projeto_4",
+    "Release": "1.18.0",
+    "Qnt_Bugs": 19,
+    "Qnt_TC_Release": 209,
+    "Qnt_TC_SW": 298,
+    "Qnt_Bugs_Client": 10
+  },
+  {
+    "Project": "Projeto_4",
+    "Release": "1.19.0",
+    "Qnt_Bugs": 11,
+    "Qnt_TC_Release": 195,
+    "Qnt_TC_SW": 298,
+    "Qnt_Bugs_Client": 8
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.0.0.0",
+    "Qnt_Bugs": 6,
+    "Qnt_TC_Release": 468,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 3
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.0.0.1",
+    "Qnt_Bugs": 8,
+    "Qnt_TC_Release": 474,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 1
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.0.0.2",
+    "Qnt_Bugs": 0,
+    "Qnt_TC_Release": 10,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.1.0.0",
+    "Qnt_Bugs": 1,
+    "Qnt_TC_Release": 136,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.1.1.0",
+    "Qnt_Bugs": 1,
+    "Qnt_TC_Release": 64,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 4
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.1.2.0",
+    "Qnt_Bugs": 2,
+    "Qnt_TC_Release": 72,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 4
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.1.3.0",
+    "Qnt_Bugs": 0,
+    "Qnt_TC_Release": 7,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 1
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.1.3.1",
+    "Qnt_Bugs": 3,
+    "Qnt_TC_Release": 65,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 3
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.2.0.0",
+    "Qnt_Bugs": 11,
+    "Qnt_TC_Release": 302,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 1
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.2.0.1",
+    "Qnt_Bugs": 1,
+    "Qnt_TC_Release": 40,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 1
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.3.0.0",
+    "Qnt_Bugs": 10,
+    "Qnt_TC_Release": 464,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 3
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.3.1.0",
+    "Qnt_Bugs": 1,
+    "Qnt_TC_Release": 128,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.4.0.0",
+    "Qnt_Bugs": 10,
+    "Qnt_TC_Release": 602,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 1
+  },
+  {
+    "Project": "Projeto_5",
+    "Release": "4.5.0.0",
+    "Qnt_Bugs": 7,
+    "Qnt_TC_Release": 658,
+    "Qnt_TC_SW": 756,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_8",
+    "Release": "2.1.5",
+    "Qnt_Bugs": 0,
+    "Qnt_TC_Release": 105,
+    "Qnt_TC_SW": 110,
+    "Qnt_Bugs_Client": 1
+  },
+  {
+    "Project": "Projeto_8",
+    "Release": "2.1.6",
+    "Qnt_Bugs": 2,
+    "Qnt_TC_Release": 109,
+    "Qnt_TC_SW": 110,
+    "Qnt_Bugs_Client": 2
+  },
+  {
+    "Project": "Projeto_8",
+    "Release": "2.2.1",
+    "Qnt_Bugs": 2,
+    "Qnt_TC_Release": 79,
+    "Qnt_TC_SW": 110,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_8",
+    "Release": "2.2.3",
+    "Qnt_Bugs": 1,
+    "Qnt_TC_Release": 23,
+    "Qnt_TC_SW": 110,
+    "Qnt_Bugs_Client": 2
+  },
+  {
+    "Project": "Projeto_8",
+    "Release": "3.0.0",
+    "Qnt_Bugs": 10,
+    "Qnt_TC_Release": 110,
+    "Qnt_TC_SW": 110,
+    "Qnt_Bugs_Client": 1
+  },
+  {
+    "Project": "Projeto_6",
+    "Release": "3.0.0",
+    "Qnt_Bugs": 40,
+    "Qnt_TC_Release": 220,
+    "Qnt_TC_SW": 555,
+    "Qnt_Bugs_Client": 5
+  },
+  {
+    "Project": "Projeto_6",
+    "Release": "3.0.1",
+    "Qnt_Bugs": 35,
+    "Qnt_TC_Release": 504,
+    "Qnt_TC_SW": 555,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_6",
+    "Release": "3.0.2",
+    "Qnt_Bugs": 16,
+    "Qnt_TC_Release": 574,
+    "Qnt_TC_SW": 555,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_6",
+    "Release": "3.0.3",
+    "Qnt_Bugs": 2,
+    "Qnt_TC_Release": 219,
+    "Qnt_TC_SW": 555,
+    "Qnt_Bugs_Client": 4
+  },
+  {
+    "Project": "Projeto_6",
+    "Release": "3.0.4",
+    "Qnt_Bugs": 15,
+    "Qnt_TC_Release": 471,
+    "Qnt_TC_SW": 555,
+    "Qnt_Bugs_Client": 2
+  },
+  {
+    "Project": "Projeto_9",
+    "Release": "2.3.0.3",
+    "Qnt_Bugs": 2,
+    "Qnt_TC_Release": 45,
+    "Qnt_TC_SW": 160,
+    "Qnt_Bugs_Client": 2
+  },
+  {
+    "Project": "Projeto_9",
+    "Release": "2.3.0.4",
+    "Qnt_Bugs": 0,
+    "Qnt_TC_Release": 45,
+    "Qnt_TC_SW": 160,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_9",
+    "Release": "2.3.0.6",
+    "Qnt_Bugs": 1,
+    "Qnt_TC_Release": 46,
+    "Qnt_TC_SW": 160,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_9",
+    "Release": "3.0.0.0",
+    "Qnt_Bugs": 3,
+    "Qnt_TC_Release": 74,
+    "Qnt_TC_SW": 160,
+    "Qnt_Bugs_Client": 3
+  },
+  {
+    "Project": "Projeto_9",
+    "Release": "3.0.0.1",
+    "Qnt_Bugs": 2,
+    "Qnt_TC_Release": 76,
+    "Qnt_TC_SW": 160,
+    "Qnt_Bugs_Client": 25
+  },
+  {
+    "Project": "Projeto_9",
+    "Release": "3.0.0.2",
+    "Qnt_Bugs": 5,
+    "Qnt_TC_Release": 79,
+    "Qnt_TC_SW": 160,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_9",
+    "Release": "3.1.0.0",
+    "Qnt_Bugs": 4,
+    "Qnt_TC_Release": 86,
+    "Qnt_TC_SW": 160,
+    "Qnt_Bugs_Client": 1
+  },
+  {
+    "Project": "Projeto_9",
+    "Release": "3.1.1.0",
+    "Qnt_Bugs": 12,
+    "Qnt_TC_Release": 134,
+    "Qnt_TC_SW": 160,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_9",
+    "Release": "3.1.2.0",
+    "Qnt_Bugs": 7,
+    "Qnt_TC_Release": 160,
+    "Qnt_TC_SW": 160,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_10",
+    "Release": "2.1.1.0",
+    "Qnt_Bugs": 1,
+    "Qnt_TC_Release": 55,
+    "Qnt_TC_SW": 55,
+    "Qnt_Bugs_Client": 1
+  },
+  {
+    "Project": "Projeto_10",
+    "Release": "2.1.2.0",
+    "Qnt_Bugs": 0,
+    "Qnt_TC_Release": 23,
+    "Qnt_TC_SW": 55,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_10",
+    "Release": "3.0.0.0",
+    "Qnt_Bugs": 8,
+    "Qnt_TC_Release": 32,
+    "Qnt_TC_SW": 55,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_11",
+    "Release": "4.3.2.1",
+    "Qnt_Bugs": 0,
+    "Qnt_TC_Release": 45,
+    "Qnt_TC_SW": 61,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_11",
+    "Release": "4.3.2.2",
+    "Qnt_Bugs": 2,
+    "Qnt_TC_Release": 61,
+    "Qnt_TC_SW": 61,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_11",
+    "Release": "4.4.0.2",
+    "Qnt_Bugs": 4,
+    "Qnt_TC_Release": 58,
+    "Qnt_TC_SW": 61,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_12",
+    "Release": "2.1.1",
+    "Qnt_Bugs": 2,
+    "Qnt_TC_Release": 33,
+    "Qnt_TC_SW": 62,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_12",
+    "Release": "2.1.2",
+    "Qnt_Bugs": 6,
+    "Qnt_TC_Release": 89,
+    "Qnt_TC_SW": 62,
+    "Qnt_Bugs_Client": 3
+  },
+  {
+    "Project": "Projeto_12",
+    "Release": "2.2.0",
+    "Qnt_Bugs": 1,
+    "Qnt_TC_Release": 62,
+    "Qnt_TC_SW": 62,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_12",
+    "Release": "2.2.2",
+    "Qnt_Bugs": 1,
+    "Qnt_TC_Release": 62,
+    "Qnt_TC_SW": 62,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_7",
+    "Release": "1.2.0.0",
+    "Qnt_Bugs": 3,
+    "Qnt_TC_Release": 77,
+    "Qnt_TC_SW": 243,
+    "Qnt_Bugs_Client": 1
+  },
+  {
+    "Project": "Projeto_7",
+    "Release": "1.2.1.0",
+    "Qnt_Bugs": 0,
+    "Qnt_TC_Release": 60,
+    "Qnt_TC_SW": 243,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_7",
+    "Release": "1.2.1.3",
+    "Qnt_Bugs": 3,
+    "Qnt_TC_Release": 72,
+    "Qnt_TC_SW": 243,
+    "Qnt_Bugs_Client": 1
+  },
+  {
+    "Project": "Projeto_7",
+    "Release": "1.3.0.0",
+    "Qnt_Bugs": 4,
+    "Qnt_TC_Release": 74,
+    "Qnt_TC_SW": 243,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_7",
+    "Release": "1.3.0.1",
+    "Qnt_Bugs": 0,
+    "Qnt_TC_Release": 3,
+    "Qnt_TC_SW": 243,
+    "Qnt_Bugs_Client": 0
+  },
+  {
+    "Project": "Projeto_7",
+    "Release": "1.3.1.0",
+    "Qnt_Bugs": 9,
+    "Qnt_TC_Release": 243,
+    "Qnt_TC_SW": 243,
+    "Qnt_Bugs_Client": 0
+  }
+]
